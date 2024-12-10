@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 
+    'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0px;
+    margin: 0;
+    height: 10px 50px;
+    border-radius: 12px;
+}
+
+header {
+    display:flex;
+    position:absolute;
+    top:0;
+    left:20px;
+    margin: 100px 20px;
+}
+
+
+header div a{ 
+    font-size:20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    display:flex;
+    margin: 25px 10px;
+    background-color: rgb(240s, 39, 39) black ;
+    padding: 50px;
+    width: 90px;
+    font-weight: bold;
+    justify-content: center;
+    border-radius:  15px;
+    text-align: center;
+    text-transform:capitalize;
+    background-color: rgb(17, 227, 90);
+    transition: transform 0.3s ease;
+}
+
+header div :hover{
+    color:rgb(234, 14, 14)
+}
+.bajo{
+display: grid;
+
+}
+
+
+#hero{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    max-width: 1200%; /* Tamaño máximo */
+    height: auto;
+    z-index: -1;
+}
+
